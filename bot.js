@@ -22,6 +22,13 @@
         `npm install pm2 -g`
         `npm install nano -g`
 	
+3.5) 	
+    create the roles on your server
+    `Root`,
+    `Administrator`,
+    `Moderator`,
+    `User`,
+    `Test`;
 4)
     Run the bot
     `pm2 start bot.js`
@@ -157,12 +164,6 @@ createCommand("Ping", currentCommandRank, ["ping"], "Pings you", function (messa
     });
 });
 
-// createCommand("Commands", currentCommandRank, ["cmds", "commands"], "Pings you", function (message, speaker, channel) {
-//     channel.send({
-//         content: Galaxy.
-//     });
-// });
-
 //===============// Rank (2, Administrator) commands
 var currentCommandRank = 2
 createCommand("PrintString", currentCommandRank, ["printstring", "getstring"], "Get $users string", async function (message, speaker, channel, guild) {
@@ -254,31 +255,8 @@ client.on("messageCreate", message => {
     };
 });
 
+//===============// 6) https://discordapi.com/permissions.html#
 
+//===============// 7) https://discord.com/developers/applications
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.login("MTAxNzE3NjM5NzM5NzA5ODYwNw.GbLK-b.A3UVG6anor655B_rYWGO88ilkzDjzKRxA8RAaI");
+client.login("Token here! Get one at step 7, copy the CLIENT ID and put it in step 6");
