@@ -7,3 +7,9 @@ Discord Bot
 `npm install mysql`
 `npm install pm2 -g`
 `npm install nano -g`
+
+# Credits
+
+tusKOr661 -> Main Development
+
+Ricky -> Fixed the bot.
